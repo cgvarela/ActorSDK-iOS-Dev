@@ -6,10 +6,10 @@
 #include <j2objc/IOSClass.h>
 #include <j2objc/IOSPrimitiveArray.h>
 #include <j2objc/J2ObjC_source.h>
+#include "im/actor/runtime/bser/BserLimits.h"
 #include "im/actor/runtime/bser/BserObject.h"
 #include "im/actor/runtime/bser/BserWriter.h"
 #include "im/actor/runtime/bser/DataOutput.h"
-#include "im/actor/runtime/bser/Limits.h"
 #include "im/actor/runtime/bser/WireTypes.h"
 #include "im/actor/runtime/collections/SparseArray.h"
 #include <j2objc/java/io/IOException.h>
@@ -95,7 +95,7 @@ __attribute__((unused)) static void ARBserWriter_writeBytesWithByteArray_(ARBser
   if (value == nil) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Value can not be null");
   }
-  if (((IOSByteArray *) nil_chk(value))->size_ > ARLimits_MAX_BLOCK_SIZE) {
+  if (((IOSByteArray *) nil_chk(value))->size_ > ARBserLimits_MAX_BLOCK_SIZE) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Unable to write more than 1 MB");
   }
   [((ARSparseArray *) nil_chk(writtenFields_)) putWithInt:fieldNumber withId:JavaLangBoolean_valueOfWithBoolean_(true)];
@@ -162,7 +162,7 @@ __attribute__((unused)) static void ARBserWriter_writeBytesWithByteArray_(ARBser
   if (values == nil) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Values can not be null");
   }
-  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARLimits_MAX_PROTO_REPEATED) {
+  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARBserLimits_MAX_PROTO_REPEATED) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Too many values");
   }
   [((ARSparseArray *) nil_chk(writtenFields_)) putWithInt:fieldNumber withId:JavaLangBoolean_valueOfWithBoolean_(true)];
@@ -181,7 +181,7 @@ __attribute__((unused)) static void ARBserWriter_writeBytesWithByteArray_(ARBser
   if (values == nil) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Values can not be null");
   }
-  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARLimits_MAX_PROTO_REPEATED) {
+  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARBserLimits_MAX_PROTO_REPEATED) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Too many values");
   }
   [((ARSparseArray *) nil_chk(writtenFields_)) putWithInt:fieldNumber withId:JavaLangBoolean_valueOfWithBoolean_(true)];
@@ -200,7 +200,7 @@ __attribute__((unused)) static void ARBserWriter_writeBytesWithByteArray_(ARBser
   if (values == nil) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Values can not be null");
   }
-  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARLimits_MAX_PROTO_REPEATED) {
+  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARBserLimits_MAX_PROTO_REPEATED) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Too many values");
   }
   [((ARSparseArray *) nil_chk(writtenFields_)) putWithInt:fieldNumber withId:JavaLangBoolean_valueOfWithBoolean_(true)];
@@ -219,7 +219,7 @@ __attribute__((unused)) static void ARBserWriter_writeBytesWithByteArray_(ARBser
   if (values == nil) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Values can not be null");
   }
-  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARLimits_MAX_PROTO_REPEATED) {
+  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARBserLimits_MAX_PROTO_REPEATED) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Too many values");
   }
   [((ARSparseArray *) nil_chk(writtenFields_)) putWithInt:fieldNumber withId:JavaLangBoolean_valueOfWithBoolean_(true)];
@@ -238,7 +238,7 @@ __attribute__((unused)) static void ARBserWriter_writeBytesWithByteArray_(ARBser
   if (values == nil) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Values can not be null");
   }
-  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARLimits_MAX_PROTO_REPEATED) {
+  if ([((id<JavaUtilList>) nil_chk(values)) size] > ARBserLimits_MAX_PROTO_REPEATED) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Too many values");
   }
   [((ARSparseArray *) nil_chk(writtenFields_)) putWithInt:fieldNumber withId:JavaLangBoolean_valueOfWithBoolean_(true)];

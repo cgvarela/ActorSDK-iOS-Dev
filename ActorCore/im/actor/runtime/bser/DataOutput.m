@@ -6,8 +6,8 @@
 #include <j2objc/IOSClass.h>
 #include <j2objc/IOSPrimitiveArray.h>
 #include <j2objc/J2ObjC_source.h>
+#include "im/actor/runtime/bser/BserLimits.h"
 #include "im/actor/runtime/bser/DataOutput.h"
-#include "im/actor/runtime/bser/Limits.h"
 #include <j2objc/java/io/IOException.h>
 #include <j2objc/java/lang/IllegalArgumentException.h>
 #include <j2objc/java/lang/System.h>
@@ -142,7 +142,7 @@ J2OBJC_IGNORE_DESIGNATED_END
 - (void)writeBytesWithByteArray:(IOSByteArray *)v
                         withInt:(jint)ofs
                         withInt:(jint)len {
-  if (len > ARLimits_MAX_BLOCK_SIZE) {
+  if (len > ARBserLimits_MAX_BLOCK_SIZE) {
     @throw new_JavaLangIllegalArgumentException_initWithNSString_(@"Unable to write more than 1 MB");
   }
   if (len < 0) {
@@ -167,8 +167,8 @@ J2OBJC_IGNORE_DESIGNATED_END
 
 #line 122
 - (void)writeProtoLongsWithLongArray:(IOSLongArray *)values {
-  if (((IOSLongArray *) nil_chk(values))->size_ > ARLimits_MAX_PROTO_REPEATED) {
-    @throw new_JavaLangIllegalArgumentException_initWithNSString_(JreStrcat("$I", @"Values can't be more than ", ARLimits_MAX_PROTO_REPEATED));
+  if (((IOSLongArray *) nil_chk(values))->size_ > ARBserLimits_MAX_PROTO_REPEATED) {
+    @throw new_JavaLangIllegalArgumentException_initWithNSString_(JreStrcat("$I", @"Values can't be more than ", ARBserLimits_MAX_PROTO_REPEATED));
   }
   [self writeVarIntWithLong:values->size_];
   {

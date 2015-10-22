@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         		= "ActorSDK-iOS"
-  s.version      		= "0.0.26"
+  s.name         		= "ActorSDK-iOS-Dev"
+  s.version      		= "0.0.27"
   s.summary      		= "Actor SDK for intergration Actor Messaging to your apps"
   s.homepage        = "https://actor.im/"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
@@ -33,9 +33,18 @@ Pod::Spec.new do |s|
   s.dependency 'M13ProgressSuite'
   s.dependency 'JDStatusBarNotification'
 
+  s.frameworks = "UIKit", "CoreFoundation", "Foundation", "j2objc"
+
+  s.subspec 'ActorCore' do |ss|
+    ss.dependency 'RestKit/ObjectMapping'
+    ss.dependency 'RestKit/Network'
+    ss.dependency 'RestKit/CoreData'
+  end
+
   # Sources
-  s.header_mappings_dir = "ActorCore"
-  s.source_files = "ActorCore/**/*", "ActorSDK/**/*"
-  s.private_header_files = "**/*-Private.h"
-  s.resources = "Resources/**/*"
+  # s.preserve_paths = "ActorCore"
+  # s.source_files = "ActorCore/**/*"
+  # s.source_files = "ActorCore/**/*", "ActorSDK/**/*"
+  # s.private_header_files = "**/*-Private.h"
+  # s.resources = "Resources/**/*"
 end
