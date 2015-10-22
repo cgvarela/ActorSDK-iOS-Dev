@@ -3,15 +3,15 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/mvvm/Value.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/runtime/Runtime.h"
 #include "im/actor/runtime/mvvm/Value.h"
 #include "im/actor/runtime/mvvm/ValueChangedListener.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

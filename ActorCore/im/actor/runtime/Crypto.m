@@ -3,15 +3,15 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/Crypto.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/Crypto.h"
 #include "im/actor/runtime/CryptoRuntime.h"
 #include "im/actor/runtime/CryptoRuntimeProvider.h"
 #include "im/actor/runtime/RandomRuntime.h"
 #include "im/actor/runtime/RandomRuntimeProvider.h"
-#include "java/lang/RuntimeException.h"
-#include "java/math/BigInteger.h"
+#include <j2objc/java/lang/RuntimeException.h>
+#include <j2objc/java/math/BigInteger.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/storage/AsyncListEngine.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/bser/BserCreator.h"
 #include "im/actor/runtime/bser/BserObject.h"
 #include "im/actor/runtime/generic/storage/AsyncListEngine.h"
@@ -15,10 +15,10 @@
 #include "im/actor/runtime/storage/ListEngineItem.h"
 #include "im/actor/runtime/storage/ListStorageDisplayEx.h"
 #include "im/actor/runtime/storage/ObjectCache.h"
-#include "java/lang/Long.h"
-#include "java/util/ArrayList.h"
-#include "java/util/List.h"
-#include "java/util/concurrent/CopyOnWriteArrayList.h"
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/List.h>
+#include <j2objc/java/util/concurrent/CopyOnWriteArrayList.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

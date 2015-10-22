@@ -3,11 +3,11 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/updates/internal/LoggedIn.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/rpc/ResponseAuth.h"
 #include "im/actor/core/modules/updates/internal/InternalUpdate.h"
 #include "im/actor/core/modules/updates/internal/LoggedIn.h"
-#include "java/lang/Runnable.h"
+#include <j2objc/java/lang/Runnable.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

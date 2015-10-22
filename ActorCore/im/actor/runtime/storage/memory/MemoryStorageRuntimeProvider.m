@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/storage/memory/MemoryStorageRuntimeProvider.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/storage/IndexStorage.h"
 #include "im/actor/runtime/storage/KeyValueStorage.h"
 #include "im/actor/runtime/storage/ListStorage.h"

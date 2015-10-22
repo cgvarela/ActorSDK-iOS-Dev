@@ -3,11 +3,11 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/entity/ContentType.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/entity/ContentType.h"
-#include "java/lang/Enum.h"
-#include "java/lang/IllegalArgumentException.h"
+#include <j2objc/java/lang/Enum.h>
+#include <j2objc/java/lang/IllegalArgumentException.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

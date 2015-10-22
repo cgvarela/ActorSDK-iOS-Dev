@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/Storage.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/EnginesRuntime.h"
 #include "im/actor/runtime/EnginesRuntimeProvider.h"
 #include "im/actor/runtime/FileSystemRuntime.h"

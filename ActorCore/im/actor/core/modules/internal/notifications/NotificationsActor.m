@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/notifications/NotificationsActor.java
 //
 
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/Configuration.h"
 #include "im/actor/core/Messenger.h"
 #include "im/actor/core/NotificationProvider.h"
@@ -31,15 +31,15 @@
 #include "im/actor/runtime/eventbus/Event.h"
 #include "im/actor/runtime/storage/KeyValueStorage.h"
 #include "im/actor/runtime/storage/SyncKeyValue.h"
-#include "java/io/IOException.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Long.h"
-#include "java/lang/RuntimeException.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashMap.h"
-#include "java/util/HashSet.h"
-#include "java/util/List.h"
-#include "java/util/Set.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/RuntimeException.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/HashSet.h>
+#include <j2objc/java/util/List.h>
+#include <j2objc/java/util/Set.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

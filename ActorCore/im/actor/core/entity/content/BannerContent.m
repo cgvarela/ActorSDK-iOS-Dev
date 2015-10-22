@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/entity/content/BannerContent.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiFileLocation.h"
 #include "im/actor/core/api/ApiJsonMessage.h"
 #include "im/actor/core/api/ApiMessage.h"

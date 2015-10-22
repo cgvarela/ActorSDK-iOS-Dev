@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/MessagesModule.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiOutPeer.h"
 #include "im/actor/core/api/ApiPeer.h"
 #include "im/actor/core/api/ApiPeerType.h"
@@ -66,11 +66,11 @@
 #include "im/actor/runtime/storage/ListEngine.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
 #include "im/actor/runtime/storage/SyncKeyValue.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Long.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashMap.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashMap.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

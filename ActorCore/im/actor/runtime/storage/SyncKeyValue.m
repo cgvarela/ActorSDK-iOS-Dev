@@ -3,13 +3,13 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/storage/SyncKeyValue.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/storage/KeyValueStorage.h"
 #include "im/actor/runtime/storage/SyncKeyValue.h"
-#include "java/lang/Long.h"
-#include "java/util/HashMap.h"
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/HashMap.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

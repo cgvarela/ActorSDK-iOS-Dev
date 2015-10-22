@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-cocoa/src/main/java//im/actor/runtime/cocoa/CocoaStorageProxyProvider.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/runtime/StorageRuntime.h"
 #include "im/actor/runtime/cocoa/CocoaStorageProxyProvider.h"
@@ -12,7 +12,7 @@
 #include "im/actor/runtime/storage/KeyValueStorage.h"
 #include "im/actor/runtime/storage/ListStorage.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/lang/RuntimeException.h"
+#include <j2objc/java/lang/RuntimeException.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

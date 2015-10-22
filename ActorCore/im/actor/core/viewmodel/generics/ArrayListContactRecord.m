@@ -3,11 +3,11 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/viewmodel/generics/ArrayListContactRecord.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/entity/ContactRecord.h"
 #include "im/actor/core/viewmodel/generics/ArrayListContactRecord.h"
-#include "java/util/ArrayList.h"
-#include "java/util/Collection.h"
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/Collection.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

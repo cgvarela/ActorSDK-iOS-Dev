@@ -3,10 +3,10 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/network/mtp/actors/PusherActor.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/network/mtp/MTProto.h"
 #include "im/actor/core/network/mtp/actors/ManagerActor.h"
 #include "im/actor/core/network/mtp/actors/PusherActor.h"
@@ -22,12 +22,12 @@
 #include "im/actor/runtime/actors/ActorSelection.h"
 #include "im/actor/runtime/actors/ActorSystem.h"
 #include "im/actor/runtime/actors/Props.h"
-#include "java/lang/Long.h"
-#include "java/util/ArrayList.h"
-#include "java/util/Collection.h"
-#include "java/util/HashMap.h"
-#include "java/util/HashSet.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/Collection.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/HashSet.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

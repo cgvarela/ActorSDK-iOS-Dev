@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/storage/AsyncStorageInt.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/actors/ActorCreator.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/actors/ActorSystem.h"
@@ -17,11 +17,11 @@
 #include "im/actor/runtime/storage/ListEngineDisplayLoadCallback.h"
 #include "im/actor/runtime/storage/ListEngineItem.h"
 #include "im/actor/runtime/storage/ListStorageDisplayEx.h"
-#include "java/lang/Integer.h"
-#include "java/lang/InterruptedException.h"
-#include "java/lang/Long.h"
-#include "java/util/ArrayList.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/InterruptedException.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/contacts/ContactsSyncActor.java
 //
 
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/Configuration.h"
 #include "im/actor/core/api/ApiUser.h"
 #include "im/actor/core/api/rpc/RequestGetContacts.h"
@@ -33,15 +33,15 @@
 #include "im/actor/runtime/bser/DataOutput.h"
 #include "im/actor/runtime/storage/ListEngine.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/io/IOException.h"
-#include "java/io/UnsupportedEncodingException.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Integer.h"
-#include "java/util/ArrayList.h"
-#include "java/util/Arrays.h"
-#include "java/util/Collections.h"
-#include "java/util/Comparator.h"
-#include "java/util/List.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/io/UnsupportedEncodingException.h>
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/Arrays.h>
+#include <j2objc/java/util/Collections.h>
+#include <j2objc/java/util/Comparator.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

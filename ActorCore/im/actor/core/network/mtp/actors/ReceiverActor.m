@@ -3,10 +3,10 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/network/mtp/actors/ReceiverActor.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/network/mtp/MTProto.h"
 #include "im/actor/core/network/mtp/MTProtoCallback.h"
 #include "im/actor/core/network/mtp/actors/PusherActor.h"
@@ -32,10 +32,10 @@
 #include "im/actor/runtime/actors/ActorSelection.h"
 #include "im/actor/runtime/actors/ActorSystem.h"
 #include "im/actor/runtime/actors/Props.h"
-#include "java/io/IOException.h"
-#include "java/lang/Exception.h"
-#include "java/lang/Long.h"
-#include "java/util/ArrayList.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Exception.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/ArrayList.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

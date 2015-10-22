@@ -3,10 +3,10 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/contacts/BookImportActor.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/Configuration.h"
 #include "im/actor/core/PhoneBookProvider.h"
 #include "im/actor/core/api/ApiEmailToImport.h"
@@ -30,11 +30,11 @@
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Long.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashSet.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashSet.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

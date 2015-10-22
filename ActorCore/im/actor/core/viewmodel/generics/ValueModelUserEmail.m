@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/viewmodel/generics/ValueModelUserEmail.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/viewmodel/generics/ArrayListUserEmail.h"
 #include "im/actor/core/viewmodel/generics/ValueModelUserEmail.h"
 #include "im/actor/runtime/mvvm/ValueChangedListener.h"

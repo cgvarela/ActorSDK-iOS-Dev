@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/messages/DialogsActor.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/entity/Avatar.h"
 #include "im/actor/core/entity/ContentDescription.h"
 #include "im/actor/core/entity/ContentType.h"
@@ -28,9 +28,9 @@
 #include "im/actor/runtime/Runtime.h"
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/storage/ListEngine.h"
-#include "java/lang/Boolean.h"
-#include "java/util/ArrayList.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/List.h>
 
 @class ACDialogsActor_PeerDesc;
 

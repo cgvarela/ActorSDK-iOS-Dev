@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-cocoa/src/main/java//im/actor/runtime/cocoa/CocoaHttpProxyProvider.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/runtime/HttpRuntime.h"
 #include "im/actor/runtime/cocoa/CocoaHttpProxyProvider.h"

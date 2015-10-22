@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/network/api/ApiBroker.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/modules/utils/RandomUtils.h"
 #include "im/actor/core/network/ActorApiCallback.h"
 #include "im/actor/core/network/AuthKeyStorage.h"
@@ -40,10 +40,10 @@
 #include "im/actor/runtime/actors/Props.h"
 #include "im/actor/runtime/threading/AtomicIntegerCompat.h"
 #include "im/actor/runtime/threading/AtomicLongCompat.h"
-#include "java/io/IOException.h"
-#include "java/lang/Long.h"
-#include "java/util/Collection.h"
-#include "java/util/HashMap.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/Collection.h>
+#include <j2objc/java/util/HashMap.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

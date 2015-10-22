@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/SecurityModule.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/rpc/RequestGetAuthSessions.h"
 #include "im/actor/core/api/rpc/RequestTerminateAllSessions.h"
 #include "im/actor/core/api/rpc/RequestTerminateSession.h"
@@ -16,9 +16,9 @@
 #include "im/actor/core/network/RpcException.h"
 #include "im/actor/core/viewmodel/Command.h"
 #include "im/actor/core/viewmodel/CommandCallback.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Runnable.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

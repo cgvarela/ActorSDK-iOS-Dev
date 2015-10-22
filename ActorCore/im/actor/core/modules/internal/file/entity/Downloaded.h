@@ -10,8 +10,8 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/bser/BserObject.h>
-#include <ActorSDK/im/actor/runtime/storage/KeyValueItem.h>
+#include "im/actor/runtime/bser/BserObject.h"
+#include "im/actor/runtime/storage/KeyValueItem.h"
 
 @class ARBserValues;
 @class ARBserWriter;

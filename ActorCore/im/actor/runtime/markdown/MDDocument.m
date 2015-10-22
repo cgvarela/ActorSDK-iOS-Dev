@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/markdown/MDDocument.java
 //
 
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/markdown/MDDocument.h"
 #include "im/actor/runtime/markdown/MDRawText.h"
 #include "im/actor/runtime/markdown/MDSection.h"

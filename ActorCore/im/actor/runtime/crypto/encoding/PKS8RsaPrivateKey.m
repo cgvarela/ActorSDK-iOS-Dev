@@ -3,10 +3,10 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/crypto/encoding/PKS8RsaPrivateKey.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/crypto/asn1/ASN1.h"
 #include "im/actor/runtime/crypto/asn1/ASN1Integer.h"
 #include "im/actor/runtime/crypto/asn1/ASN1Null.h"
@@ -15,8 +15,8 @@
 #include "im/actor/runtime/crypto/asn1/ASN1Primitive.h"
 #include "im/actor/runtime/crypto/asn1/ASN1Sequence.h"
 #include "im/actor/runtime/crypto/encoding/PKS8RsaPrivateKey.h"
-#include "java/io/IOException.h"
-#include "java/math/BigInteger.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/math/BigInteger.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

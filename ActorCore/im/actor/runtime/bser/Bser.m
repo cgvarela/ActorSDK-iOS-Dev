@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/bser/Bser.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/bser/Bser.h"
 #include "im/actor/runtime/bser/BserCreator.h"
 #include "im/actor/runtime/bser/BserObject.h"
@@ -13,7 +13,7 @@
 #include "im/actor/runtime/bser/BserValues.h"
 #include "im/actor/runtime/bser/DataInput.h"
 #include "im/actor/runtime/collections/SparseArray.h"
-#include "java/io/IOException.h"
+#include <j2objc/java/io/IOException.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

@@ -3,17 +3,17 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/crypto/asn1/ASN1ObjectIdentifier.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/bser/DataInput.h"
 #include "im/actor/runtime/bser/DataOutput.h"
 #include "im/actor/runtime/crypto/asn1/ASN1ObjectIdentifier.h"
 #include "im/actor/runtime/crypto/asn1/ASN1Primitive.h"
-#include "java/io/IOException.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Long.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Long.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

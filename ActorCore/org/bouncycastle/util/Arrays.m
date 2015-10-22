@@ -3,14 +3,14 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//org/bouncycastle/util/Arrays.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
-#include "java/lang/IllegalArgumentException.h"
-#include "java/lang/StringBuffer.h"
-#include "java/lang/System.h"
-#include "java/math/BigInteger.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
+#include <j2objc/java/lang/IllegalArgumentException.h>
+#include <j2objc/java/lang/StringBuffer.h>
+#include <j2objc/java/lang/System.h>
+#include <j2objc/java/math/BigInteger.h>
 #include "org/bouncycastle/util/Arrays.h"
 
 #pragma clang diagnostic push

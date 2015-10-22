@@ -10,10 +10,6 @@ Pod::Spec.new do |s|
   s.platform     		= :ios, "8.0"
   s.requires_arc 		= true
 
-  s.prepare_command = <<-CMD
-      Scripts/download.sh
-  CMD
-
   # Core
   s.dependency 'J2ObjC-Framework'
   s.dependency 'RegexKitLite'
@@ -39,7 +35,7 @@ Pod::Spec.new do |s|
 
   # Sources
   s.header_mappings_dir = "ActorCore"
-  s.source_files = "ActorCore/**/*.{h,m}", "ActorSDK/**/*.{h,m}"
+  s.source_files = "ActorCore/**/*", "ActorSDK/**/*"
   s.private_header_files = "**/*-Private.h"
   s.resources = "Resources/**/*"
 end

@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//org/bouncycastle/util/IPAddress.java
 //
 
-#include "J2ObjC_source.h"
-#include "java/lang/Integer.h"
-#include "java/lang/NumberFormatException.h"
+#include <j2objc/J2ObjC_source.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/NumberFormatException.h>
 #include "org/bouncycastle/util/IPAddress.h"
 
 #pragma clang diagnostic push

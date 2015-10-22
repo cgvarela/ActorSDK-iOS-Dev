@@ -3,14 +3,14 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/util/ActorTrace.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/util/ActorTrace.h"
 #include "im/actor/runtime/Log.h"
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/actors/ActorTime.h"
 #include "im/actor/runtime/actors/mailbox/Envelope.h"
-#include "java/lang/Exception.h"
+#include <j2objc/java/lang/Exception.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

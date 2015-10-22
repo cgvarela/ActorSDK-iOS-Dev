@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/i18n/I18nEngine.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/core/entity/Avatar.h"
 #include "im/actor/core/entity/ContentDescription.h"
@@ -41,12 +41,12 @@
 #include "im/actor/runtime/Log.h"
 #include "im/actor/runtime/Runtime.h"
 #include "im/actor/runtime/storage/KeyValueEngine.h"
-#include "java/lang/Character.h"
-#include "java/lang/Exception.h"
-#include "java/util/Arrays.h"
-#include "java/util/Comparator.h"
-#include "java/util/Date.h"
-#include "java/util/HashMap.h"
+#include <j2objc/java/lang/Character.h>
+#include <j2objc/java/lang/Exception.h>
+#include <j2objc/java/util/Arrays.h>
+#include <j2objc/java/util/Comparator.h>
+#include <j2objc/java/util/Date.h>
+#include <j2objc/java/util/HashMap.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

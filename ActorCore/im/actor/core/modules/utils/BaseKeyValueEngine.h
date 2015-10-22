@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/storage/KeyValueEngine.h>
+#include "im/actor/runtime/storage/KeyValueEngine.h"
 
 @class IOSByteArray;
 @class IOSLongArray;

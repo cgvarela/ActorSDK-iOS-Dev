@@ -3,11 +3,11 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/LogRuntime.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/runtime/LogRuntime.h"
-#include "java/lang/Throwable.h"
+#include <j2objc/java/lang/Throwable.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

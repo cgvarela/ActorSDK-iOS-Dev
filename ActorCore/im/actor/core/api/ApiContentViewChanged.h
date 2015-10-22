@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/core/api/ApiEvent.h>
+#include "im/actor/core/api/ApiEvent.h"
 
 @class ARApiRawValue;
 @class ARBserValues;

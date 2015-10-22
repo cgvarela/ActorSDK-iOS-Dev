@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/mtproto/ManagedConnection.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/Crypto.h"
 #include "im/actor/runtime/Log.h"
 #include "im/actor/runtime/Runtime.h"
@@ -20,15 +20,15 @@
 #include "im/actor/runtime/mtproto/ManagedConnection.h"
 #include "im/actor/runtime/mtproto/ManagedConnectionCreateCallback.h"
 #include "im/actor/runtime/threading/AbsTimerCompat.h"
-#include "java/io/IOException.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Long.h"
-#include "java/lang/Runnable.h"
-#include "java/util/Arrays.h"
-#include "java/util/Collection.h"
-#include "java/util/HashMap.h"
-#include "java/util/Random.h"
-#include "java/util/Set.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/Arrays.h>
+#include <j2objc/java/util/Collection.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/Random.h>
+#include <j2objc/java/util/Set.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

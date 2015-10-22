@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/actors/mailbox/ActorDispatcher.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/actors/ActorContext.h"
 #include "im/actor/runtime/actors/ActorRef.h"
@@ -23,10 +23,10 @@
 #include "im/actor/runtime/actors/messages/DeadLetter.h"
 #include "im/actor/runtime/actors/messages/PoisonPill.h"
 #include "im/actor/runtime/actors/messages/StartActor.h"
-#include "java/lang/Exception.h"
-#include "java/lang/Runnable.h"
-#include "java/lang/RuntimeException.h"
-#include "java/util/HashMap.h"
+#include <j2objc/java/lang/Exception.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/lang/RuntimeException.h>
+#include <j2objc/java/util/HashMap.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

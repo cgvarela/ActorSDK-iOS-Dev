@@ -10,8 +10,8 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/core/entity/WrapperEntity.h>
-#include <ActorSDK/im/actor/runtime/storage/KeyValueItem.h>
+#include "im/actor/core/entity/WrapperEntity.h"
+#include "im/actor/runtime/storage/KeyValueItem.h"
 
 @class ACAvatar;
 @class ACPeer;

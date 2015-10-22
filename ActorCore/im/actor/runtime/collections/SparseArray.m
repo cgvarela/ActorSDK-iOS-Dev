@@ -3,16 +3,16 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/collections/SparseArray.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/collections/ArrayUtils.h"
 #include "im/actor/runtime/collections/ContainerHelpers.h"
 #include "im/actor/runtime/collections/SparseArray.h"
-#include "java/lang/Math.h"
-#include "java/lang/StringBuilder.h"
-#include "java/lang/System.h"
+#include <j2objc/java/lang/Math.h>
+#include <j2objc/java/lang/StringBuilder.h>
+#include <j2objc/java/lang/System.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/Modules.java
 //
 
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/Configuration.h"
 #include "im/actor/core/ConfigurationExtension.h"
 #include "im/actor/core/Extension.h"
@@ -38,7 +38,7 @@
 #include "im/actor/runtime/Storage.h"
 #include "im/actor/runtime/eventbus/EventBus.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/lang/Runnable.h"
+#include <j2objc/java/lang/Runnable.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

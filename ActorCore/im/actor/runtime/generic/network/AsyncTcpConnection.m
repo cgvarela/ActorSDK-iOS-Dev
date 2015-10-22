@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/network/AsyncTcpConnection.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/Log.h"
 #include "im/actor/runtime/bser/DataInput.h"
 #include "im/actor/runtime/bser/DataOutput.h"
@@ -14,21 +14,21 @@
 #include "im/actor/runtime/mtproto/AsyncConnectionInterface.h"
 #include "im/actor/runtime/mtproto/ConnectionEndpoint.h"
 #include "im/actor/runtime/mtproto/ManagedConnection.h"
-#include "java/io/IOException.h"
-#include "java/io/InputStream.h"
-#include "java/io/OutputStream.h"
-#include "java/lang/InterruptedException.h"
-#include "java/lang/Runnable.h"
-#include "java/lang/Thread.h"
-#include "java/lang/Throwable.h"
-#include "java/net/InetSocketAddress.h"
-#include "java/net/Socket.h"
-#include "java/util/concurrent/ConcurrentLinkedQueue.h"
-#include "java/util/concurrent/ExecutorService.h"
-#include "java/util/concurrent/Executors.h"
-#include "java/util/concurrent/Future.h"
-#include "javax/net/SocketFactory.h"
-#include "javax/net/ssl/SSLSocketFactory.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/io/InputStream.h>
+#include <j2objc/java/io/OutputStream.h>
+#include <j2objc/java/lang/InterruptedException.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/lang/Thread.h>
+#include <j2objc/java/lang/Throwable.h>
+#include <j2objc/java/net/InetSocketAddress.h>
+#include <j2objc/java/net/Socket.h>
+#include <j2objc/java/util/concurrent/ConcurrentLinkedQueue.h>
+#include <j2objc/java/util/concurrent/ExecutorService.h>
+#include <j2objc/java/util/concurrent/Executors.h>
+#include <j2objc/java/util/concurrent/Future.h>
+#include <j2objc/javax/net/SocketFactory.h>
+#include <j2objc/javax/net/ssl/SSLSocketFactory.h>
 
 @class ARAsyncTcpConnection_ReaderThread;
 @class ARAsyncTcpConnection_WriterThread;

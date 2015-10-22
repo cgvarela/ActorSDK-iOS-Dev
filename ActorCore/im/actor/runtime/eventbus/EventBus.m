@@ -3,17 +3,17 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/eventbus/EventBus.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/Log.h"
 #include "im/actor/runtime/Runtime.h"
 #include "im/actor/runtime/eventbus/BusSubscriber.h"
 #include "im/actor/runtime/eventbus/Event.h"
 #include "im/actor/runtime/eventbus/EventBus.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashMap.h"
-#include "java/util/Set.h"
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/Set.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

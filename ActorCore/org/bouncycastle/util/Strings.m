@@ -3,10 +3,10 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//org/bouncycastle/util/Strings.java
 //
 
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
-#include "java/util/Vector.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
+#include <j2objc/java/util/Vector.h>
 #include "org/bouncycastle/util/Strings.h"
 
 #pragma clang diagnostic push

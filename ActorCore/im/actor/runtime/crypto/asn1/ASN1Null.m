@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/crypto/asn1/ASN1Null.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/bser/DataOutput.h"
 #include "im/actor/runtime/crypto/asn1/ASN1Null.h"
 #include "im/actor/runtime/crypto/asn1/ASN1Primitive.h"

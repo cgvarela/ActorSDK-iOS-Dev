@@ -3,22 +3,22 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/bser/BserWriter.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/bser/BserObject.h"
 #include "im/actor/runtime/bser/BserWriter.h"
 #include "im/actor/runtime/bser/DataOutput.h"
 #include "im/actor/runtime/bser/Limits.h"
 #include "im/actor/runtime/bser/WireTypes.h"
 #include "im/actor/runtime/collections/SparseArray.h"
-#include "java/io/IOException.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Double.h"
-#include "java/lang/IllegalArgumentException.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Long.h"
-#include "java/util/List.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Double.h>
+#include <j2objc/java/lang/IllegalArgumentException.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

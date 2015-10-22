@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/mtproto/ManagedNetworkProvider.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/runtime/mtproto/AsyncConnectionFactory.h"
 #include "im/actor/runtime/mtproto/ConnectionCallback.h"
@@ -13,7 +13,7 @@
 #include "im/actor/runtime/mtproto/ManagedConnection.h"
 #include "im/actor/runtime/mtproto/ManagedConnectionCreateCallback.h"
 #include "im/actor/runtime/mtproto/ManagedNetworkProvider.h"
-#include "java/util/ArrayList.h"
+#include <j2objc/java/util/ArrayList.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

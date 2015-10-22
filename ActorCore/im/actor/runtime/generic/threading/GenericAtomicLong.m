@@ -3,10 +3,10 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/threading/GenericAtomicLong.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/generic/threading/GenericAtomicLong.h"
 #include "im/actor/runtime/threading/AtomicLongCompat.h"
-#include "java/util/concurrent/atomic/AtomicLong.h"
+#include <j2objc/java/util/concurrent/atomic/AtomicLong.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

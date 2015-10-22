@@ -3,10 +3,10 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/storage/ObjectCache.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/storage/ObjectCache.h"
-#include "java/util/HashMap.h"
-#include "java/util/HashSet.h"
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/HashSet.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

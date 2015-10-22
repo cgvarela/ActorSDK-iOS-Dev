@@ -10,8 +10,8 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/org/bouncycastle/crypto/ExtendedDigest.h>
-#include <ActorSDK/org/bouncycastle/util/Memoable.h>
+#include "org/bouncycastle/crypto/ExtendedDigest.h"
+#include "org/bouncycastle/util/Memoable.h"
 
 @class IOSByteArray;
 

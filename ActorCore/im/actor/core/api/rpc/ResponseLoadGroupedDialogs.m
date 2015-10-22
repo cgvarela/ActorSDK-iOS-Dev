@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/api/rpc/ResponseLoadGroupedDialogs.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiDialogGroup.h"
 #include "im/actor/core/api/ApiGroup.h"
 #include "im/actor/core/api/ApiUser.h"
@@ -15,9 +15,9 @@
 #include "im/actor/runtime/bser/BserObject.h"
 #include "im/actor/runtime/bser/BserValues.h"
 #include "im/actor/runtime/bser/BserWriter.h"
-#include "java/io/IOException.h"
-#include "java/util/ArrayList.h"
-#include "java/util/List.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

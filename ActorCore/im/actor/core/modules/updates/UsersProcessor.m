@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/updates/UsersProcessor.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiAvatar.h"
 #include "im/actor/core/api/ApiUser.h"
 #include "im/actor/core/api/updates/UpdateUserAboutChanged.h"
@@ -25,9 +25,9 @@
 #include "im/actor/core/util/JavaUtil.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/storage/KeyValueEngine.h"
-#include "java/lang/Integer.h"
-#include "java/util/ArrayList.h"
-#include "java/util/Collection.h"
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/Collection.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

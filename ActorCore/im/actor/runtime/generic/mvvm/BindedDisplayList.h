@@ -10,8 +10,8 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/generic/mvvm/DisplayList.h>
-#include <ActorSDK/im/actor/runtime/mvvm/PlatformDisplayList.h>
+#include "im/actor/runtime/generic/mvvm/DisplayList.h"
+#include "im/actor/runtime/mvvm/PlatformDisplayList.h"
 #include <j2objc/java/lang/Enum.h>
 
 @protocol ARBindedDisplayList_BindHook;

@@ -3,12 +3,12 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//org/bouncycastle/util/BigIntegers.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/crypto/bouncycastle/RandomProvider.h"
-#include "java/lang/IllegalArgumentException.h"
-#include "java/lang/System.h"
-#include "java/math/BigInteger.h"
+#include <j2objc/java/lang/IllegalArgumentException.h>
+#include <j2objc/java/lang/System.h>
+#include <j2objc/java/math/BigInteger.h>
 #include "org/bouncycastle/util/BigIntegers.h"
 
 #pragma clang diagnostic push

@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/viewmodel/GroupVM.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/core/entity/Avatar.h"
 #include "im/actor/core/entity/Group.h"
@@ -18,12 +18,12 @@
 #include "im/actor/runtime/mvvm/ModelChangedListener.h"
 #include "im/actor/runtime/mvvm/ValueModel.h"
 #include "im/actor/runtime/mvvm/ValueModelCreator.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashSet.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashSet.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

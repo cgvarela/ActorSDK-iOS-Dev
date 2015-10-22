@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/network/mtp/AuthIdRetriever.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/network/ActorApi.h"
 #include "im/actor/core/network/Endpoints.h"
 #include "im/actor/core/network/mtp/AuthIdRetriever.h"
@@ -17,8 +17,8 @@
 #include "im/actor/runtime/mtproto/ConnectionCallback.h"
 #include "im/actor/runtime/mtproto/ConnectionEndpoint.h"
 #include "im/actor/runtime/mtproto/CreateConnectionCallback.h"
-#include "java/lang/Exception.h"
-#include "java/lang/RuntimeException.h"
+#include <j2objc/java/lang/Exception.h>
+#include <j2objc/java/lang/RuntimeException.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

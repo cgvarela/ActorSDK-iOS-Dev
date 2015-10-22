@@ -10,8 +10,8 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/core/modules/utils/ModuleActor.h>
-#include <ActorSDK/im/actor/runtime/eventbus/BusSubscriber.h>
+#include "im/actor/core/modules/utils/ModuleActor.h"
+#include "im/actor/runtime/eventbus/BusSubscriber.h"
 
 @class ACModules;
 @class ImActorRuntimeEventbusEvent;

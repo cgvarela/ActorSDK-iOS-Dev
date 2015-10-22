@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/markdown/MarkdownParser.java
 //
 
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/markdown/MDCode.h"
 #include "im/actor/runtime/markdown/MDDocument.h"
 #include "im/actor/runtime/markdown/MDRawText.h"
@@ -16,7 +16,7 @@
 #include "im/actor/runtime/markdown/Patterns.h"
 #include "im/actor/runtime/regexp/MatcherCompat.h"
 #include "im/actor/runtime/regexp/PatternCompat.h"
-#include "java/util/ArrayList.h"
+#include <j2objc/java/util/ArrayList.h>
 
 @class ARMarkdownParser_BasicUrl;
 @class ARMarkdownParser_TextCursor;

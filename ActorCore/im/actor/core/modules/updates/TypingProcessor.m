@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/updates/TypingProcessor.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiPeer.h"
 #include "im/actor/core/api/ApiPeerType.h"
 #include "im/actor/core/api/ApiTypingType.h"

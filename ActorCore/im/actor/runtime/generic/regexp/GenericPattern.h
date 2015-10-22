@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/regexp/PatternCompat.h>
+#include "im/actor/runtime/regexp/PatternCompat.h"
 
 @protocol ImActorRuntimeRegexpMatcherCompat;
 

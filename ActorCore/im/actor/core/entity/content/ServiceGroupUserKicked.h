@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/core/entity/content/ServiceContent.h>
+#include "im/actor/core/entity/content/ServiceContent.h"
 
 @class ACContentRemoteContainer;
 

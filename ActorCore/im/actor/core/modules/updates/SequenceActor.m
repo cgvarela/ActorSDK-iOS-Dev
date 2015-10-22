@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/updates/SequenceActor.java
 //
 
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiDifferenceUpdate.h"
 #include "im/actor/core/api/base/FatSeqUpdate.h"
 #include "im/actor/core/api/base/SeqUpdate.h"
@@ -33,13 +33,13 @@
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/io/IOException.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashMap.h"
-#include "java/util/List.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

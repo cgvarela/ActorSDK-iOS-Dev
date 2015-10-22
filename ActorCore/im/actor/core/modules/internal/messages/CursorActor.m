@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/messages/CursorActor.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/entity/Peer.h"
 #include "im/actor/core/modules/ModuleContext.h"
 #include "im/actor/core/modules/internal/MessagesModule.h"
@@ -15,10 +15,10 @@
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/storage/SyncKeyValue.h"
-#include "java/io/IOException.h"
-#include "java/lang/Math.h"
-#include "java/util/Collection.h"
-#include "java/util/HashSet.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Math.h>
+#include <j2objc/java/util/Collection.h>
+#include <j2objc/java/util/HashSet.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/file/UploadManager.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/Configuration.h"
 #include "im/actor/core/entity/FileReference.h"
 #include "im/actor/core/modules/ModuleContext.h"
@@ -25,8 +25,8 @@
 #include "im/actor/runtime/actors/messages/PoisonPill.h"
 #include "im/actor/runtime/files/FileSystemReference.h"
 #include "im/actor/runtime/storage/KeyValueEngine.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
 
 @class ACUploadManager_QueueItem;
 

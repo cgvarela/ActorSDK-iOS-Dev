@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/settings/SettingsSyncActor.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiParameter.h"
 #include "im/actor/core/api/base/SeqUpdate.h"
 #include "im/actor/core/api/rpc/RequestEditParameter.h"
@@ -23,8 +23,8 @@
 #include "im/actor/core/network/RpcException.h"
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/io/IOException.h"
-#include "java/util/List.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

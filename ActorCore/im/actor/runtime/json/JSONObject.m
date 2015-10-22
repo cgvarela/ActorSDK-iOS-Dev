@@ -3,26 +3,26 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/json/JSONObject.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/json/JSONArray.h"
 #include "im/actor/runtime/json/JSONException.h"
 #include "im/actor/runtime/json/JSONObject.h"
 #include "im/actor/runtime/json/JSONTokener.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Double.h"
-#include "java/lang/Exception.h"
-#include "java/lang/Float.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Long.h"
-#include "java/lang/NullPointerException.h"
-#include "java/lang/Throwable.h"
-#include "java/util/Collection.h"
-#include "java/util/HashMap.h"
-#include "java/util/Iterator.h"
-#include "java/util/Map.h"
-#include "java/util/Set.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Double.h>
+#include <j2objc/java/lang/Exception.h>
+#include <j2objc/java/lang/Float.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/NullPointerException.h>
+#include <j2objc/java/lang/Throwable.h>
+#include <j2objc/java/util/Collection.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/Iterator.h>
+#include <j2objc/java/util/Map.h>
+#include <j2objc/java/util/Set.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

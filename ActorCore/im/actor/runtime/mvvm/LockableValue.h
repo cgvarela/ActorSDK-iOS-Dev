@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/mvvm/Value.h>
+#include "im/actor/runtime/mvvm/Value.h"
 
 @interface ARLockableValue : ARValue
 

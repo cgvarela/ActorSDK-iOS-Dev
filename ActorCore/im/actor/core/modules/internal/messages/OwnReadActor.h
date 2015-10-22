@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/core/modules/utils/ModuleActor.h>
+#include "im/actor/core/modules/utils/ModuleActor.h"
 
 @class ACMessage;
 @class ACPeer;

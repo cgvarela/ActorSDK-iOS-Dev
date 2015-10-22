@@ -3,11 +3,11 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/GenericRandomProvider.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/generic/GenericRandomProvider.h"
-#include "java/math/BigInteger.h"
-#include "java/security/SecureRandom.h"
+#include <j2objc/java/math/BigInteger.h>
+#include <j2objc/java/security/SecureRandom.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

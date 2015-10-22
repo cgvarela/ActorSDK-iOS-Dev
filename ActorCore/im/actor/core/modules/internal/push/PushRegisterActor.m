@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/push/PushRegisterActor.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/rpc/RequestRegisterApplePush.h"
 #include "im/actor/core/api/rpc/RequestRegisterGooglePush.h"
 #include "im/actor/core/api/rpc/ResponseVoid.h"

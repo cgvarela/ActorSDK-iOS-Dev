@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/viewmodel/OwnAvatarVM.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/viewmodel/AvatarUploadState.h"
 #include "im/actor/core/viewmodel/OwnAvatarVM.h"
 #include "im/actor/runtime/mvvm/ValueModel.h"

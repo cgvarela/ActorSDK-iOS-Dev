@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/storage/memory/MemoryListEngine.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/bser/BserCreator.h"
 #include "im/actor/runtime/bser/BserObject.h"
 #include "im/actor/runtime/bser/BserParser.h"
@@ -16,10 +16,10 @@
 #include "im/actor/runtime/storage/ObjectCache.h"
 #include "im/actor/runtime/storage/memory/MemoryListEngine.h"
 #include "im/actor/runtime/storage/memory/MemoryListStorage.h"
-#include "java/io/IOException.h"
-#include "java/lang/Long.h"
-#include "java/util/ArrayList.h"
-#include "java/util/List.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

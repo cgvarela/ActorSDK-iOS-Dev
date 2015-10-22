@@ -3,14 +3,14 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//com/google/j2objc/annotations/ObjectiveCName.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
-#include "java/lang/annotation/ElementType.h"
-#include "java/lang/annotation/Retention.h"
-#include "java/lang/annotation/RetentionPolicy.h"
-#include "java/lang/annotation/Target.h"
+#include <j2objc/java/lang/annotation/ElementType.h>
+#include <j2objc/java/lang/annotation/Retention.h>
+#include <j2objc/java/lang/annotation/RetentionPolicy.h>
+#include <j2objc/java/lang/annotation/Target.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

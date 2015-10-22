@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/org/bouncycastle/crypto/Digest.h>
+#include "org/bouncycastle/crypto/Digest.h"
 
 @protocol OrgBouncycastleCryptoExtendedDigest < OrgBouncycastleCryptoDigest, NSObject, JavaObject >
 

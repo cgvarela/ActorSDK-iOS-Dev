@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/network/ActorApi.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiVersion.h"
 #include "im/actor/core/network/ActorApi.h"
 #include "im/actor/core/network/ActorApiCallback.h"
@@ -17,7 +17,7 @@
 #include "im/actor/runtime/Runtime.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/threading/AtomicIntegerCompat.h"
-#include "java/lang/RuntimeException.h"
+#include <j2objc/java/lang/RuntimeException.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

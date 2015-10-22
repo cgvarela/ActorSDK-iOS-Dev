@@ -3,12 +3,12 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/i18n/LocaleLoader.java
 //
 
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/i18n/LocaleLoader.h"
 #include "im/actor/runtime/Assets.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashMap.h"
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashMap.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

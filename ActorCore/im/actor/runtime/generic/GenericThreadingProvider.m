@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/GenericThreadingProvider.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/actors/ActorSystem.h"
 #include "im/actor/runtime/actors/ThreadPriority.h"
 #include "im/actor/runtime/actors/mailbox/ActorDispatcher.h"
@@ -17,9 +17,9 @@
 #include "im/actor/runtime/threading/AtomicLongCompat.h"
 #include "im/actor/runtime/threading/ThreadLocalCompat.h"
 #include "im/actor/runtime/threading/TimerCompat.h"
-#include "java/lang/Runnable.h"
-#include "java/lang/Runtime.h"
-#include "java/lang/System.h"
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/lang/Runtime.h>
+#include <j2objc/java/lang/System.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

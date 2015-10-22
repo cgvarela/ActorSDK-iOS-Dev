@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/viewmodel/AppStateVM.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/modules/ModuleContext.h"
 #include "im/actor/core/modules/events/AppVisibleChanged.h"
 #include "im/actor/core/modules/events/ConnectingStateChanged.h"
@@ -14,8 +14,8 @@
 #include "im/actor/runtime/eventbus/Event.h"
 #include "im/actor/runtime/eventbus/EventBus.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Integer.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Integer.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/messages/GroupedDialogsActor.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiDialogGroup.h"
 #include "im/actor/core/api/ApiDialogShort.h"
 #include "im/actor/core/api/ApiPeer.h"
@@ -35,10 +35,10 @@
 #include "im/actor/runtime/mvvm/ValueModel.h"
 #include "im/actor/runtime/storage/KeyValueEngine.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/io/IOException.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
-#include "java/util/List.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

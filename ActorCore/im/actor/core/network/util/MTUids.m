@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/network/util/MTUids.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/network/util/MTUids.h"
 #include "im/actor/runtime/Runtime.h"
 #include "im/actor/runtime/threading/AtomicLongCompat.h"

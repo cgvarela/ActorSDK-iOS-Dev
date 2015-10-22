@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/api/parser/UpdatesParser.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/parser/UpdatesParser.h"
 #include "im/actor/core/api/updates/UpdateChatArchived.h"
 #include "im/actor/core/api/updates/UpdateChatClear.h"
@@ -48,7 +48,7 @@
 #include "im/actor/core/api/updates/UpdateUserOnline.h"
 #include "im/actor/core/network/parser/BaseParser.h"
 #include "im/actor/core/network/parser/Update.h"
-#include "java/io/IOException.h"
+#include <j2objc/java/io/IOException.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

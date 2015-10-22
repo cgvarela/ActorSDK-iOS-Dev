@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/core/network/parser/RpcScope.h>
+#include "im/actor/core/network/parser/RpcScope.h"
 
 @class ARBserValues;
 @class ARBserWriter;

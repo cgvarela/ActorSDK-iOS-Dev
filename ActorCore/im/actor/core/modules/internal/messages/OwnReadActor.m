@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/messages/OwnReadActor.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/entity/ContentDescription.h"
 #include "im/actor/core/entity/Message.h"
 #include "im/actor/core/entity/Peer.h"
@@ -18,8 +18,8 @@
 #include "im/actor/core/modules/utils/ModuleActor.h"
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/actors/ActorRef.h"
-#include "java/lang/Integer.h"
-#include "java/util/ArrayList.h"
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/util/ArrayList.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/messages/entity/DialogHistory.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/entity/MessageState.h"
 #include "im/actor/core/entity/Peer.h"
 #include "im/actor/core/entity/content/AbsContent.h"

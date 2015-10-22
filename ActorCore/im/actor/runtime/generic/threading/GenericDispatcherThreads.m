@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/threading/GenericDispatcherThreads.java
 //
 
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/actors/ActorTime.h"
 #include "im/actor/runtime/actors/ThreadPriority.h"
 #include "im/actor/runtime/actors/dispatch/AbstractDispatchQueue.h"
@@ -12,10 +12,10 @@
 #include "im/actor/runtime/actors/dispatch/Dispatch.h"
 #include "im/actor/runtime/actors/dispatch/DispatchResult.h"
 #include "im/actor/runtime/generic/threading/GenericDispatcherThreads.h"
-#include "java/lang/InterruptedException.h"
-#include "java/lang/Thread.h"
-#include "java/lang/Throwable.h"
-#include "java/util/concurrent/atomic/AtomicInteger.h"
+#include <j2objc/java/lang/InterruptedException.h>
+#include <j2objc/java/lang/Thread.h>
+#include <j2objc/java/lang/Throwable.h>
+#include <j2objc/java/util/concurrent/atomic/AtomicInteger.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

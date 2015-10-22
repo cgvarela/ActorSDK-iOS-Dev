@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-cocoa/src/main/java//im/actor/runtime/cocoa/CocoaEnginesProvider.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/cocoa/CocoaEnginesProvider.h"
 #include "im/actor/runtime/generic/GenericEnginesProvider.h"
 #include "im/actor/runtime/generic/mvvm/DisplayList.h"

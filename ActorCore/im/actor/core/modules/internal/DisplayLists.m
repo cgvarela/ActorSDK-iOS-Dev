@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/DisplayLists.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/entity/Contact.h"
 #include "im/actor/core/entity/Dialog.h"
 #include "im/actor/core/entity/Message.h"
@@ -19,7 +19,7 @@
 #include "im/actor/runtime/Storage.h"
 #include "im/actor/runtime/mvvm/PlatformDisplayList.h"
 #include "im/actor/runtime/storage/ListEngine.h"
-#include "java/util/HashMap.h"
+#include <j2objc/java/util/HashMap.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

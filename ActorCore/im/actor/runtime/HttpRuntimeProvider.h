@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/cocoa/CocoaHttpProxyProvider.h>
+#include "im/actor/runtime/cocoa/CocoaHttpProxyProvider.h"
 
 @interface ARHttpRuntimeProvider : ARCocoaHttpProxyProvider
 

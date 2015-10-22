@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/network/mtp/actors/ManagerActor.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/network/ActorApi.h"
 #include "im/actor/core/network/Endpoints.h"
 #include "im/actor/core/network/NetworkState.h"
@@ -32,7 +32,7 @@
 #include "im/actor/runtime/mtproto/ConnectionEndpoint.h"
 #include "im/actor/runtime/mtproto/CreateConnectionCallback.h"
 #include "im/actor/runtime/threading/AtomicIntegerCompat.h"
-#include "java/io/IOException.h"
+#include <j2objc/java/io/IOException.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

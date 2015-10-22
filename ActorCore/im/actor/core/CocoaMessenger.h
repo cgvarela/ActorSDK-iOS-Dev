@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/core/Messenger.h>
+#include "im/actor/core/Messenger.h"
 
 @class ACConfiguration;
 @class ACPeer;

@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/updates/internal/GetDiffCombiner.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiAppCounters.h"
 #include "im/actor/core/api/ApiPeer.h"
 #include "im/actor/core/api/updates/UpdateCountersChanged.h"
@@ -20,7 +20,7 @@
 #include "im/actor/core/modules/updates/internal/CombinedDifference.h"
 #include "im/actor/core/modules/updates/internal/GetDiffCombiner.h"
 #include "im/actor/core/network/parser/Update.h"
-#include "java/util/List.h"
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

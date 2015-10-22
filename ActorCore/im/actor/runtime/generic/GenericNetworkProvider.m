@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/GenericNetworkProvider.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/generic/GenericNetworkProvider.h"
 #include "im/actor/runtime/generic/network/AsyncTcpConnectionFactory.h"
 #include "im/actor/runtime/mtproto/ManagedNetworkProvider.h"

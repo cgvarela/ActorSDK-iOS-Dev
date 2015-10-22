@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/actors/mailbox/collections/ScheduledEnvelope.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/actors/mailbox/Envelope.h"
 #include "im/actor/runtime/actors/mailbox/collections/ScheduledEnvelope.h"
 

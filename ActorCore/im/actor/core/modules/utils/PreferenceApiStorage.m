@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/utils/PreferenceApiStorage.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/modules/utils/PreferenceApiStorage.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
 

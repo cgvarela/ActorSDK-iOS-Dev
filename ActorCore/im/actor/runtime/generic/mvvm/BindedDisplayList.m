@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-generic/src/main/java//im/actor/runtime/generic/mvvm/BindedDisplayList.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/runtime/Log.h"
 #include "im/actor/runtime/Runtime.h"
@@ -20,14 +20,14 @@
 #include "im/actor/runtime/storage/ListEngineDisplayListener.h"
 #include "im/actor/runtime/storage/ListEngineDisplayLoadCallback.h"
 #include "im/actor/runtime/storage/ListEngineItem.h"
-#include "java/lang/Enum.h"
-#include "java/lang/IllegalArgumentException.h"
-#include "java/lang/Long.h"
-#include "java/lang/Runnable.h"
-#include "java/lang/RuntimeException.h"
-#include "java/lang/System.h"
-#include "java/util/ArrayList.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Enum.h>
+#include <j2objc/java/lang/IllegalArgumentException.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/lang/RuntimeException.h>
+#include <j2objc/java/lang/System.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/List.h>
 
 @class ARBindedDisplayList_EngineListener;
 @class ARBindedDisplayList_ListModeEnum;

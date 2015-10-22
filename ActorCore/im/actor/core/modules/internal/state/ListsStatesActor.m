@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/state/ListsStatesActor.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiAppCounters.h"
 #include "im/actor/core/modules/ModuleContext.h"
 #include "im/actor/core/modules/internal/AppStateModule.h"
@@ -17,8 +17,8 @@
 #include "im/actor/runtime/bser/DataInput.h"
 #include "im/actor/runtime/collections/SparseArray.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/io/IOException.h"
-#include "java/lang/Integer.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Integer.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

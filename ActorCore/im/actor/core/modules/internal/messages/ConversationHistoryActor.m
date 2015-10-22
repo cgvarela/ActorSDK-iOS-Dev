@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/messages/ConversationHistoryActor.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiOutPeer.h"
 #include "im/actor/core/api/rpc/RequestLoadHistory.h"
 #include "im/actor/core/api/rpc/ResponseLoadHistory.h"
@@ -18,7 +18,7 @@
 #include "im/actor/runtime/actors/Actor.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/lang/Long.h"
+#include <j2objc/java/lang/Long.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

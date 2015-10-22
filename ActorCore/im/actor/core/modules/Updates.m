@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/Updates.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/base/FatSeqUpdate.h"
 #include "im/actor/core/api/base/SeqUpdate.h"
 #include "im/actor/core/modules/AbsModule.h"
@@ -22,9 +22,9 @@
 #include "im/actor/runtime/actors/Props.h"
 #include "im/actor/runtime/eventbus/Event.h"
 #include "im/actor/runtime/eventbus/EventBus.h"
-#include "java/lang/Long.h"
-#include "java/lang/Runnable.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

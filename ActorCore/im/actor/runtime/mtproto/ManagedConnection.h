@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/mtproto/Connection.h>
+#include "im/actor/runtime/mtproto/Connection.h"
 
 @class ARConnectionEndpoint;
 @class IOSByteArray;

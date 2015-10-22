@@ -3,13 +3,13 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/markdown/Patterns.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/RegExpRuntimeProvider.h"
 #include "im/actor/runtime/markdown/Patterns.h"
 #include "im/actor/runtime/regexp/MatcherCompat.h"
 #include "im/actor/runtime/regexp/PatternCompat.h"
-#include "java/lang/Character.h"
-#include "java/lang/StringBuilder.h"
+#include <j2objc/java/lang/Character.h>
+#include <j2objc/java/lang/StringBuilder.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

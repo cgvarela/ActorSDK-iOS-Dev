@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/storage/IndexStorage.h>
+#include "im/actor/runtime/storage/IndexStorage.h"
 
 @class JavaLangLong;
 @protocol JavaUtilList;

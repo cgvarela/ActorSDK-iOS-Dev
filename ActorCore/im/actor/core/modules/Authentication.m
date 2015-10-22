@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/Authentication.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/ApiConfiguration.h"
 #include "im/actor/core/AuthState.h"
 #include "im/actor/core/Configuration.h"
@@ -43,11 +43,11 @@
 #include "im/actor/runtime/Runtime.h"
 #include "im/actor/runtime/storage/KeyValueEngine.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Long.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

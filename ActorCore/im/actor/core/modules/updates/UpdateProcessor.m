@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/updates/UpdateProcessor.java
 //
 
-#include "IOSObjectArray.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiAppCounters.h"
 #include "im/actor/core/api/ApiAvatar.h"
 #include "im/actor/core/api/ApiGroup.h"
@@ -82,14 +82,14 @@
 #include "im/actor/core/viewmodel/UserVM.h"
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/mvvm/MVVMCollection.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Long.h"
-#include "java/lang/Runnable.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashMap.h"
-#include "java/util/HashSet.h"
-#include "java/util/List.h"
-#include "java/util/Set.h"
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/HashSet.h>
+#include <j2objc/java/util/List.h>
+#include <j2objc/java/util/Set.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

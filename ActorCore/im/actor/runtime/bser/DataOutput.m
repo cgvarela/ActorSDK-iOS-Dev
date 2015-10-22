@@ -3,14 +3,14 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/bser/DataOutput.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/bser/DataOutput.h"
 #include "im/actor/runtime/bser/Limits.h"
-#include "java/io/IOException.h"
-#include "java/lang/IllegalArgumentException.h"
-#include "java/lang/System.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/IllegalArgumentException.h>
+#include <j2objc/java/lang/System.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

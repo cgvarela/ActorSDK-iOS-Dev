@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 #include <j2objc/J2ObjC_header.h>
-#include <ActorSDK/im/actor/runtime/threading/AtomicLongCompat.h>
+#include "im/actor/runtime/threading/AtomicLongCompat.h"
 
 @class JavaUtilConcurrentAtomicAtomicLong;
 

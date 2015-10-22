@@ -3,7 +3,7 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/AbsModule.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/ApiPeer.h"
 #include "im/actor/core/api/ApiPeerType.h"
 #include "im/actor/core/entity/Group.h"
@@ -26,7 +26,7 @@
 #include "im/actor/runtime/actors/ActorRef.h"
 #include "im/actor/runtime/storage/KeyValueEngine.h"
 #include "im/actor/runtime/storage/PreferencesStorage.h"
-#include "java/lang/Runnable.h"
+#include <j2objc/java/lang/Runnable.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

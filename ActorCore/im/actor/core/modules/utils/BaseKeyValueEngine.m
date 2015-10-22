@@ -3,16 +3,16 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/utils/BaseKeyValueEngine.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/modules/utils/BaseKeyValueEngine.h"
 #include "im/actor/runtime/storage/KeyValueItem.h"
 #include "im/actor/runtime/storage/KeyValueRecord.h"
 #include "im/actor/runtime/storage/KeyValueStorage.h"
-#include "java/lang/Long.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashMap.h"
-#include "java/util/List.h"
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

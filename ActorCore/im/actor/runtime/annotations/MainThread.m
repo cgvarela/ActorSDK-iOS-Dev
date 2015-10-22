@@ -3,11 +3,11 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/annotations/MainThread.java
 //
 
-#include "IOSClass.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/annotations/MainThread.h"
-#include "java/lang/annotation/Retention.h"
-#include "java/lang/annotation/RetentionPolicy.h"
+#include <j2objc/java/lang/annotation/Retention.h>
+#include <j2objc/java/lang/annotation/RetentionPolicy.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

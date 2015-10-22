@@ -3,13 +3,13 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/storage/memory/MemoryPreferencesStorage.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/runtime/storage/memory/MemoryPreferencesStorage.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Integer.h"
-#include "java/lang/Long.h"
-#include "java/util/HashMap.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Integer.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/util/HashMap.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

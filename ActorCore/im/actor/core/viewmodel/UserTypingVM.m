@@ -3,10 +3,10 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/viewmodel/UserTypingVM.java
 //
 
-#include "J2ObjC_source.h"
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/viewmodel/UserTypingVM.h"
 #include "im/actor/runtime/mvvm/ValueModel.h"
-#include "java/lang/Boolean.h"
+#include <j2objc/java/lang/Boolean.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

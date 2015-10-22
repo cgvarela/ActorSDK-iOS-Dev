@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/MentionsModule.java
 //
 
-#include "IOSClass.h"
-#include "IOSObjectArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSObjectArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/entity/Avatar.h"
 #include "im/actor/core/entity/Group.h"
 #include "im/actor/core/entity/GroupMember.h"
@@ -17,10 +17,10 @@
 #include "im/actor/core/util/StringMatch.h"
 #include "im/actor/core/util/StringMatcher.h"
 #include "im/actor/runtime/storage/KeyValueEngine.h"
-#include "java/util/ArrayList.h"
-#include "java/util/Arrays.h"
-#include "java/util/Comparator.h"
-#include "java/util/List.h"
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/Arrays.h>
+#include <j2objc/java/util/Comparator.h>
+#include <j2objc/java/util/List.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"

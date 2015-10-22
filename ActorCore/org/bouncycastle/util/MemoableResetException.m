@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//org/bouncycastle/util/MemoableResetException.java
 //
 
-#include "J2ObjC_source.h"
-#include "java/lang/ClassCastException.h"
+#include <j2objc/J2ObjC_source.h>
+#include <j2objc/java/lang/ClassCastException.h>
 #include "org/bouncycastle/util/MemoableResetException.h"
 
 #pragma clang diagnostic push

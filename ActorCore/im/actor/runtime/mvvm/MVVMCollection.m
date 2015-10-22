@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//im/actor/runtime/mvvm/MVVMCollection.java
 //
 
-#include "IOSClass.h"
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSClass.h>
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "com/google/j2objc/annotations/ObjectiveCName.h"
 #include "im/actor/runtime/Runtime.h"
 #include "im/actor/runtime/bser/BserCreator.h"
@@ -21,13 +21,13 @@
 #include "im/actor/runtime/storage/KeyValueItem.h"
 #include "im/actor/runtime/storage/KeyValueRecord.h"
 #include "im/actor/runtime/storage/KeyValueStorage.h"
-#include "java/io/IOException.h"
-#include "java/lang/Long.h"
-#include "java/lang/Runnable.h"
-#include "java/lang/RuntimeException.h"
-#include "java/util/ArrayList.h"
-#include "java/util/HashMap.h"
-#include "java/util/List.h"
+#include <j2objc/java/io/IOException.h>
+#include <j2objc/java/lang/Long.h>
+#include <j2objc/java/lang/Runnable.h>
+#include <j2objc/java/lang/RuntimeException.h>
+#include <j2objc/java/util/ArrayList.h>
+#include <j2objc/java/util/HashMap.h>
+#include <j2objc/java/util/List.h>
 
 @class ARMVVMCollection_ProxyKeyValueEngine;
 

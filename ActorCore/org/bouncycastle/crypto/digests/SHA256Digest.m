@@ -3,9 +3,9 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/runtime/runtime-shared/src/main/java//org/bouncycastle/crypto/digests/SHA256Digest.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
-#include "java/lang/System.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
+#include <j2objc/java/lang/System.h>
 #include "org/bouncycastle/crypto/digests/GeneralDigest.h"
 #include "org/bouncycastle/crypto/digests/SHA256Digest.h"
 #include "org/bouncycastle/util/Memoable.h"

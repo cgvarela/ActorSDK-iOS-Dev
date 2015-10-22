@@ -3,8 +3,8 @@
 //  source: /Users/ex3ndr/Develop/actor-proprietary/actor-sdk/sdk-core/core/core-shared/src/main/java//im/actor/core/modules/internal/UsersModule.java
 //
 
-#include "IOSPrimitiveArray.h"
-#include "J2ObjC_source.h"
+#include <j2objc/IOSPrimitiveArray.h>
+#include <j2objc/J2ObjC_source.h>
 #include "im/actor/core/api/base/SeqUpdate.h"
 #include "im/actor/core/api/rpc/RequestEditAbout.h"
 #include "im/actor/core/api/rpc/RequestEditName.h"
@@ -31,8 +31,8 @@
 #include "im/actor/runtime/mvvm/MVVMCollection.h"
 #include "im/actor/runtime/mvvm/ValueModelCreator.h"
 #include "im/actor/runtime/storage/KeyValueEngine.h"
-#include "java/lang/Boolean.h"
-#include "java/lang/Runnable.h"
+#include <j2objc/java/lang/Boolean.h>
+#include <j2objc/java/lang/Runnable.h>
 
 #pragma clang diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
